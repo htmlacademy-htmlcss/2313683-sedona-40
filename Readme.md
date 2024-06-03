@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [dxgleb](https://up.htmlacademy.ru/htmlcss/40/user/2313683).
-* Наставник: `Неизвестно`.
+* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
+* Сайт: [Проект Седона](https://dxgleb.github.io/project-sedona).
 
 ---
 
