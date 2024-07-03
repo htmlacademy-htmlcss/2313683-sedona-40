@@ -169,6 +169,23 @@ body {
   border-radius: 4px;
 }
 
+.registration-link:hover {
+  background-color: #615048;
+}
+
+.registration-link:focus {
+  background-color: #615048;
+}
+
+.registration-link:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.registration-link:disabled {
+  background-color: #e5e5e5;
+}
+
 .main-index {
   flex-grow: 1;
   text-align: center;
@@ -372,6 +389,23 @@ body {
   cursor: pointer;
 }
 
+.button-search-hotel:hover {
+  background-color: #615048;
+}
+
+.button-search-hotel:focus {
+  background-color: #615048;
+}
+
+.button-search-hotel:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-search-hotel:disabled {
+  background-color: #e5e5e5;
+}
+
 .subscribe {
   display: flex;
   flex-direction: column;
@@ -430,6 +464,23 @@ body {
   border: none;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
+}
+
+.button-subscribe:hover {
+  background-color: #68A2CA;
+}
+
+.button-subscribe:focus {
+  background-color: #68A2CA;
+}
+
+.button-subscribe:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-subscribe:disabled {
+  background-color: #e5e5e5;
 }
 
 .page-footer {
@@ -684,6 +735,23 @@ body {
   cursor: pointer;
 }
 
+.button-filter-accept:hover {
+  background-color: #68A2CA;
+}
+
+.button-filter-accept:focus {
+  background-color: #68A2CA;
+}
+
+.button-filter-accept:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-filter-accept:disabled {
+  background-color: #e5e5e5;
+}
+
 .button-filter-reset {
   font-family: inherit;
   font-size: 16px;
@@ -856,6 +924,23 @@ body {
   border-radius: 4px;
 }
 
+.moredetails:hover {
+  background-color: #615048;
+}
+
+.moredetails:focus {
+  background-color: #615048;
+}
+
+.moredetails:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.moredetails:disabled {
+  background-color: #e5e5e5;
+}
+
 .button-favorites-add {
   font-family: inherit;
   font-size: 16px;
@@ -866,6 +951,23 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.button-favorites-add:hover {
+  background-color: #68A2CA;
+}
+
+.button-favorites-add:focus {
+  background-color: #68A2CA;
+}
+
+.button-favorites-add:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favorites-add:disabled {
+  background-color: #e5e5e5;
 }
 
 .button-favorites-remove {
