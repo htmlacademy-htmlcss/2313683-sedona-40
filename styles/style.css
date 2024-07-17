@@ -70,7 +70,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  min-height: 62px;
+  min-height: 64px;
 }
 
 .header-logo {
@@ -214,7 +214,7 @@ body {
 
 .registration-link {
   display: block;
-  min-width: 170px;
+  min-width: 160px;
   font-size: 16px;
   line-height: 125%;
   text-decoration: none;
@@ -249,10 +249,11 @@ body {
 
 .hero {
   background-image: url(../images/hero-background-mask.svg), url(../images/hero-background.jpg);
-  background-size: 101%, cover;
+  background-size: 100%, cover;
   background-position: center bottom, center;
   background-repeat: no-repeat;
   background-color: #82B3D3;
+  line-height: 0;
   padding: 51px 20px 82px;
 }
 
@@ -260,7 +261,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 260px;
+  min-height: 261px;
+  margin-bottom: 21px;
   padding: 20px;
 }
 
@@ -313,7 +315,7 @@ body {
   background-image: url(../images/advantages/advantages-rectangle-light.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 30px auto 30px;
+  margin: 30px auto;
 }
 
 .advantages-description {
@@ -359,6 +361,26 @@ body {
   margin: 30px auto 30px;
 }
 
+.advantages-invite-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 246px;
+  padding: 20px;
+}
+
+.advantages-invite {
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.advantages-invite-description {
+  margin: 0;
+}
+
 .advantages-offer-list {
   display: flex;
   flex-wrap: wrap;
@@ -385,6 +407,7 @@ body {
   font-size: 24px;
   line-height: 117%;
   margin: 0;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -396,17 +419,23 @@ body {
 
 .advantages-house::before {
   content: url(../images/advantages/advantages-house.svg);
-  margin-bottom: 30px;
+  width: 75px;
+  height: 72px;
+  margin: 0 auto;
 }
 
 .advantages-food::before {
   content: url(../images/advantages/advantages-food.svg);
-  margin-bottom: 30px;
+  width: 74px;
+  height: 70px;
+  margin: 0 auto;
 }
 
 .advantages-souvenirs::before {
   content: url(../images/advantages/advantages-souvenirs.svg);
-  margin-bottom: 30px;
+  width: 64px;
+  height: 76px;
+  margin: 0 auto;
 }
 
 .search {
@@ -479,7 +508,7 @@ body {
 
 .subscribe-promo {
   font-size: 30px;
-  line-height: 120%;
+  line-height: 115%;
   color: #ffffff;
   margin: 0;
   margin-bottom: 20px;
@@ -541,22 +570,18 @@ body {
   background-color: #e5e5e5;
 }
 
-.page-footer {
-  padding: 0 70px;
-  text-align: center;
-}
-
 .contacts {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   min-height: 120px;
+  padding: 40px 70px 30px;
 }
 
 .social-list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 150px;
+  width: 183px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -571,7 +596,7 @@ body {
   text-decoration: none;
   color: #000000;
   margin: 0;
-  padding: 13px;
+  padding: 13px 12px;
 }
 
 .social-link:hover .social-link-icon {
@@ -598,7 +623,7 @@ body {
   color: #000000;
   font-style: normal;
   text-decoration: none;
-  padding: 30px;
+  padding: 5px 5px;
 }
 
 .phone:hover {
@@ -615,11 +640,13 @@ body {
 }
 
 .copyright {
+  display: block;
+  width: 157px;
+  text-align: end;
   font-size: 2px;
   line-height: 100%;
-  display: block;
   text-decoration: none;
-  padding: 30px;
+  padding: 8px 0;
 }
 
 .copyright:hover .copyright-logo {
@@ -645,7 +672,7 @@ body {
 
 .filter {
   text-align: left;
-  min-height: 435px;
+  min-height: 412px;
   background-image: url(../images/filter-background.jpg);
   background-size: cover;
   background-position: center;
@@ -659,6 +686,7 @@ body {
   line-height: 130%;
   color: #ffffff;
   margin: 0;
+  margin-bottom: 4px;
 }
 
 .breadscrumble-list {
@@ -666,7 +694,7 @@ body {
   gap: 10px;
   list-style-type: none;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 39px;
   padding: 0;
 }
 
@@ -730,7 +758,7 @@ body {
   line-height: 120%;
   color: #ffffff;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
   padding: 0;
 }
 
@@ -757,7 +785,7 @@ body {
   height: 20px;
   background-color: #ffffff;
   border-radius: 4px;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
   cursor: pointer;
 }
 
@@ -802,7 +830,7 @@ body {
   box-sizing: content-box;
   background-color: #ffffff;
   border-radius: 50%;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
   cursor: pointer;
 }
 
@@ -859,7 +887,7 @@ body {
   gap: 2px;
   width: 288px;
   list-style-type: none;
-  margin: 0 0 28px;
+  margin: 0 0 34px;
   padding: 0;
 }
 
@@ -973,7 +1001,7 @@ body {
 .price-range-max {
   position: absolute;
   top: 8px;
-  left: 213px;
+  left: 215px;
   width: 1px;
   height: 1px;
 }
@@ -985,9 +1013,9 @@ body {
 .range-line-max {
   position: absolute;
   top: 8px;
-  left: 220px;
+  left: 227px;
   display: block;
-  width: 68px;
+  width: 61px;
   height: 4px;
   background-color: #585858;
 }
@@ -996,7 +1024,7 @@ body {
   position: absolute;
   box-sizing: content-box;
   top: 0;
-  left: 200px;
+  left: 207px;
   display: block;
   width: 20px;
   height: 20px;
@@ -1099,11 +1127,12 @@ body {
 
 .catalog-sort {
   position: relative;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 117%;
   min-width: 292px;
-  min-height: 49px;
+  min-height: 48px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   margin-right: 70px;
@@ -1111,7 +1140,7 @@ body {
   appearance: none;
   background-image: url(../images/icons/arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: right 21px center;
+  background-position: right 18px center;
 }
 
 .catalog-sort:hover {
@@ -1124,7 +1153,7 @@ body {
 }
 
 .catalog-sort:disabled {
-  border-color: (0, 0, 0, 0.3)
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .viewtype-list {
@@ -1137,8 +1166,8 @@ body {
 
 .viewtype-item {
   display: block;
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 48px;
+  min-height: 48px;
   margin: 0;
   padding: 9px 14px;
   border: 2px solid #E5E5E5;
@@ -1179,7 +1208,7 @@ body {
 .hotel-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 16px;
+  gap: 18px;
   list-style-type: none;
   margin: 0;
   margin-bottom: 80px;
@@ -1234,9 +1263,12 @@ body {
 }
 
 .moredetails {
+  display: block;
+  font-family: inherit;
   font-size: 16px;
   line-height: 125%;
   text-decoration: none;
+  width: 138px;
   background-color: #756157;
   color: #ffffff;
   padding: 8px;
@@ -1420,9 +1452,9 @@ p.rating-star {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 375px;
+  min-height: 415px;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 96px 20px 104px;
 }
 
 .subscribe-promo-inner {
@@ -1508,7 +1540,7 @@ p.rating-star {
 .modal-search-container {
   display: grid;
   grid-template-columns: 137px 197px 131px 112px;
-  grid-template-rows: repeat(5, minmax(48px, auto));
+  row-gap: 4px;
   align-items: center;
 }
 
@@ -1524,7 +1556,7 @@ p.rating-star {
 
 .modal-search-date {
   position: relative;
-  grid-column: span 3;
+  grid-column: 2 / -1;
 }
 
 .modal-date-input {
@@ -1551,8 +1583,8 @@ p.rating-star {
 
 .modal-date-input-calendar {
   position: absolute;
-  top: 14px;
-  right: 14px;
+  top: 15px;
+  right: 15px;
   display: block;
   width: 20px;
   height: 20px;
@@ -1580,21 +1612,23 @@ p.rating-star {
 .modal-search-date-past {
   grid-column: 2 / -1;
   align-self: start;
+  min-height: 40px;
   font-size: 16px;
   line-height: 131%;
   color: #ff5757;
   margin: 0;
-  padding: 4px 20px;
+  padding: 1px 21px;
 }
 
 .modal-search-date-future {
   grid-column: 2 / -1;
   align-self: start;
+  min-height: 40px;
   font-size: 16px;
   line-height: 131%;
   color: #333333;
   margin: 0;
-  padding: 4px 20px;
+  padding: 1px 21px;
 }
 
 .modal-old-input {
