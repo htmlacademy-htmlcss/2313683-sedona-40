@@ -25,7 +25,7 @@
               </a>
             </li>
             <li class="header-nav-item">
-              <a class="header-nav-link bold" href="#" aria-current="page">
+              <a class="header-nav-link header-nav-link-current bold" href="#" aria-current="page">
                 Гостиницы
               </a>
             </li>
@@ -149,9 +149,13 @@
                     </li>
                   </ul>
                   <div class="range-wrapper">
-                    <button class="range-slider-min"></button>
+                    <button class="range-slider-min" type="button">
+                      <span class="visually-hidden">Минимальная стоимость</span>
+                    </button>
                     <span class="range-line-min"></span>
-                    <button class="range-slider-max"></button>
+                    <button class="range-slider-max" type="button">
+                      <span class="visually-hidden">Максимальная стоимость</span>
+                    </button>
                     <span class="range-line-max"></span>
                   </div>
                 </fieldset>
@@ -179,18 +183,18 @@
             </select>
             <ul class="viewtype-list">
               <li>
-                <span class="visually-hidden">Показать плитками</span>
                 <a class="viewtype-item viewtype-item-tile" href="catalog.html?view=tile">
+                  <span class="visually-hidden">Показать плитками</span>
                 </a>
               </li>
               <li>
-                <span class="visually-hidden">Показать карточками</span>
                 <a class="viewtype-item viewtype-item-card" href="catalog.html?view=card">
+                  <span class="visually-hidden">Показать карточками</span>
                 </a>
               </li>
               <li>
-                <span class="visually-hidden">Показать списком</span>
                 <a class="viewtype-item viewtype-item-list" href="catalog.html?view=list">
+                  <span class="visually-hidden">Показать списком</span>
                 </a>
               </li>
             </ul>
@@ -212,7 +216,7 @@
               <a class="moredetails bold uppercase" href="#">
                 Подробнее
               </a>
-              <button class="button-favorites-add bold uppercase">
+              <button class="button-favorites-add bold uppercase" type="button">
                 В избранное
               </button>
               <p class="rating-star stars-four">
@@ -238,7 +242,7 @@
               <a class="moredetails bold uppercase" href="#">
                 Подробнее
               </a>
-              <button class="button-favorites-remove bold uppercase">
+              <button class="button-favorites-remove bold uppercase" type="button">
                 В избранном
               </button>
               <p class="rating-star stars-four">
@@ -264,7 +268,7 @@
               <a class="moredetails bold uppercase" href="#">
                 Подробнее
               </a>
-              <button class="button-favorites-add bold uppercase">
+              <button class="button-favorites-add bold uppercase" type="button">
                 В избранное
               </button>
               <p class="rating-star stars-three">
@@ -290,7 +294,7 @@
               <a class="moredetails bold uppercase" href="#">
                 Подробнее
               </a>
-              <button class="button-favorites-add bold uppercase">
+              <button class="button-favorites-add bold uppercase" type="button">
                 В избранное
               </button>
               <p class="rating-star stars-two">
@@ -302,32 +306,32 @@
             </li>
           </ul>
           <ul class="pagination-list">
-            <li class="pagination-item">
+            <li>
               <a class="pagination-link pagination-current bold" href="#" tabindex="-1">
                 1
               </a>
             </li>
-            <li class="pagination-item">
+            <li>
               <a class="pagination-link bold" href="#">
                 2
               </a>
             </li>
-            <li class="pagination-item">
+            <li>
               <a class="pagination-link bold" href="#">
                 3
               </a>
             </li>
-            <li class="pagination-item">
+            <li>
               <a class="pagination-link bold" href="#">
                 4
               </a>
             </li>
-            <li class="pagination-item">
+            <li>
               <a class="pagination-link pagination-uncover bold" href="#">
                 ...
               </a>
             </li>
-            <li class="pagination-item">
+            <li>
               <a class="pagination-link bold" href="#">
                 10
               </a>

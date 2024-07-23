@@ -159,7 +159,7 @@
             Укажите предполагаемые даты поездки,<br>
             и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <button class="button-search-hotel bold uppercase" tabindex="-1">
+          <button class="button-search-hotel bold uppercase" type="button" tabindex="-1">
             Поиск гостиницы в Седоне
           </button>
         </section>
@@ -221,7 +221,7 @@
       </footer>
       <div class="modal-container">
         <div class="modal">
-          <button class="modal-close-button">
+          <button class="modal-close-button" type="button">
             <span class="visually-hidden">Закрыть</span>
           </button>
           <section>
@@ -237,7 +237,7 @@
                       Дата Заезда:
                     </p>
                     <div class="modal-search-date">
-                      <input class="modal-date-input bold" type="text" name="date-in" value="27 апреля 2020">
+                      <input class="modal-date-input bold" type="text" name="date-in" value="27 апреля 2020" required>
                       <label class="modal-date-input-calendar" tabindex="0">
                         <span class="visually-hidden">Открыть календарь</span>
                       </label>
@@ -249,7 +249,7 @@
                       Дата Выезда:
                     </p>
                     <div class="modal-search-date">
-                      <input class="modal-date-input bold" type="text" name="date-in" value="1 сентября 2021">
+                      <input class="modal-date-input bold" type="text" name="date-in" value="1 сентября 2021" required>
                       <label class="modal-date-input-calendar" tabindex="0">
                         <span class="visually-hidden">Открыть календарь</span>
                       </label>
@@ -262,11 +262,15 @@
                     </p>
                     <div class="modal-age-input">
                       <div class="modal-age-container">
-                        <button class="modal-age-minus-button"></button>
+                        <button class="modal-age-minus-button" type="button">
+                          <span class="visually-hidden">Уменьшить планируемое количество взрослых</span>
+                        </button>
                       </div>
-                      <span class="modal-age-current bold">2</span>
+                      <input class="modal-age-current bold" type="text" name="age-old-value" value="2" required>
                       <div class="modal-age-container">
-                        <button class="modal-age-plus-button"></button>
+                        <button class="modal-age-plus-button" type="button">
+                          <span class="visually-hidden">Увеличить планируемое количество взрослых</span>
+                        </button>
                       </div>
                     </div>
                     <div class="modal-age-wrapper">
@@ -274,7 +278,9 @@
                         Дети:
                       </p>
                       <div class="modal-age-info-container">
-                        <button class="modal-age-info"></button>
+                        <button class="modal-age-info" type="button">
+                          <span class="visually-hidden">Подсказка</span>
+                        </button>
                         <div class="popover">
                         <p class="popover-content">
                           Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
@@ -284,11 +290,15 @@
                     </div>
                     <div class="modal-age-input">
                       <div class="modal-age-container">
-                        <button class="modal-age-minus-button"></button>
+                        <button class="modal-age-minus-button" type="button">
+                          <span class="visually-hidden">Уменьшить планируемое количество детей</span>
+                        </button>
                       </div>
-                      <span class="modal-age-current bold">2</span>
+                      <input class="modal-age-current bold" type="text" name="age-young-value" value="2" required>
                       <div class="modal-age-container">
-                        <button class="modal-age-plus-button"></button>
+                        <button class="modal-age-plus-button" type="button">
+                          <span class="visually-hidden">Увеличить планируемое количество детей</span>
+                        </button>
                       </div>
                     </div>
                   </div>
